@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Paradise Nursery Shopping Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive e-commerce web application built using React, Redux Toolkit, and Vite, designed for plant enthusiasts to browse and purchase their favorite houseplants. 
 
-Currently, two official plugins are available:
+## Project Features
+* **Landing Page:** A beautiful welcoming interface with a background banner and an entry path to the catalog.
+* **Product Catalog:** Displays multiple categories of houseplants featuring distinct types, individual pricing, and thumbnail images.
+* **State Management:** Implements Redux Toolkit actions (`addItem`, `removeItem`, and `updateQuantity`) to dynamically synchronize cart totals and application headers instantly.
+* **Interactive Cart:** Real-time quantity adjustments, per-item cost calculation summaries, item deletion, and placeholder checkout structures.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+* **Frontend Library:** React (Functional Components & Hooks)
+* **Build Tool:** Vite
+* **State Management:** Redux Toolkit & React-Redux
+* **Styling:** CSS3
