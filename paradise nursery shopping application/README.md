@@ -1,6 +1,6 @@
-# Paradise Nursery Shopping Application
+# e-plantShopping
 
-An interactive e-commerce web application built using React, Redux Toolkit, and Vite, designed for plant enthusiasts to browse and purchase their favorite houseplants. 
+Welcome to the Paradise Nursery Shopping Application (e-plantShopping), an interactive e-commerce web application built using React, Redux Toolkit, and Vite designed for plant enthusiasts to browse and purchase their favorite houseplants.
 
 ## Project Features
 * **Landing Page:** A beautiful welcoming interface with a background banner and an entry path to the catalog.
